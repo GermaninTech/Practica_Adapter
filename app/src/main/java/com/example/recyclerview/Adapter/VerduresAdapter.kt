@@ -1,5 +1,6 @@
 package com.example.recyclerview.Adapter
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -18,7 +19,9 @@ class VerduresAdapter(val VerduresList: MutableList<Verdures>) : RecyclerView.Ad
             }
         }
         fun emplenar(verdures: Verdures){
-
+            binding.tvNom.text = verdures.nom
+            binding.tvcolor.text = verdures.color
+            binding.tvtipus.text = verdures.tipus
         }
     }
 
