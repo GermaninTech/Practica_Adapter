@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        val verduraList:MutableList<Verdura> = mutableListOf(
+        val verduraList: MutableList<Verdura> = mutableListOf(
             Verdura("Zanahoria", "Naranja", "Raíz"),
             Verdura("Lechuga", "Verde", "Hoja"),
             Verdura("Tomate", "Rojo", "Fruto"),
